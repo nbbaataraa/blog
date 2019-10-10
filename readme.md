@@ -8,7 +8,7 @@
 </p>
 
 ## To Use
-<p align="center"> 
+<p>
 enter your project directory then<br> 
 install composer on your project<br><br><br>
 
