@@ -43,4 +43,6 @@ config .env to  <br>
       DB_PASSWORD=root<br>
       DB_ENGINE=InnoDB<br>
       DB_SOCKET=C:/xampp/mysql/bin/my.ini<br>
+
+config the user ROLE if admin ROLE change to usesr tables admin 0 to 1
     </p>
