@@ -15,7 +15,7 @@
       </li>
 
       <li class="nav-item active  ">
-        <a class="nav-link" href="{{url('/home')}}">
+        <a class="nav-link" href="{{url('/profile')}}">
           <i class="material-icons">library_books</i>
 
           <p>Бүртгэл</p>
