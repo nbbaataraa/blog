@@ -8,12 +8,20 @@
   <div class="sidebar-wrapper">
     <ul class="nav">
       <li class="nav-item active  ">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="/">
           <i class="material-icons">dashboard</i>
           <p>Хянах самбар</p>
         </a>
       </li>
-      
+
+      <li class="nav-item active  ">
+        <a class="nav-link" href="{{url('/home')}}">
+          <i class="material-icons">library_books</i>
+
+          <p>Бүртгэл</p>
+        </a>
+      </li>
+
     </ul>
   </div>
 </div>
