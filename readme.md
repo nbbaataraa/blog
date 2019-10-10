@@ -9,22 +9,22 @@
 
 ## To Use
 <p align="center"> 
-enter your project directory then 
-install composer on your project
-<p>
-<p align="center">
-php artisan key:generate
-php artisan cache:clear
-php artisan config:clear
+enter your project directory then<br> 
+install composer on your project<br><br><br>
 
-rename .env.example to .env
-config .env to  
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=hrapp
-    DB_USERNAME=root
-    DB_PASSWORD=root
-    DB_ENGINE=InnoDB
-    DB_SOCKET=/Applications/MAMP/tmp/mysql/mysql.sock 
+
+php artisan key:generate<br>
+php artisan cache:clear<br>
+php artisan config:clear<br>
+<br><br>
+rename .env.example to .env<br>
+config .env to  <br>
+    DB_CONNECTION=mysql<br>
+    DB_HOST=127.0.0.1<br>
+    DB_PORT=3306<br>
+    DB_DATABASE=hrapp<br>
+    DB_USERNAME=root<br>
+    DB_PASSWORD=root<br>
+    DB_ENGINE=InnoDB<br>
+    DB_SOCKET=/Applications/MAMP/tmp/mysql/mysql.sock<br> 
     </p>
