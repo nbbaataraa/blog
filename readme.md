@@ -8,6 +8,11 @@
 </p>
 
 ## To Use
+<p align="center"> 
+enter your project directory then 
+install composer on your project
+<p>
+<p align="center">
 php artisan key:generate
 php artisan cache:clear
 php artisan config:clear
@@ -22,3 +27,4 @@ config .env to
     DB_PASSWORD=root
     DB_ENGINE=InnoDB
     DB_SOCKET=/Applications/MAMP/tmp/mysql/mysql.sock 
+    </p>
