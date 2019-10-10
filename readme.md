@@ -9,7 +9,7 @@
 
 ## To Use
 <p>
-enter your project directory then<br> 
+enter your project directory then<br>
 install composer on your project<br><br><br>
 
 
@@ -18,6 +18,9 @@ php artisan cache:clear<br>
 php artisan config:clear<br>
 <br><br>
 rename .env.example to .env<br>
+
+FOR MAC OSX USING MAMP SERVER<br>
+
 config .env to  <br>
     DB_CONNECTION=mysql<br>
     DB_HOST=127.0.0.1<br>
@@ -26,5 +29,18 @@ config .env to  <br>
     DB_USERNAME=root<br>
     DB_PASSWORD=root<br>
     DB_ENGINE=InnoDB<br>
-    DB_SOCKET=/Applications/MAMP/tmp/mysql/mysql.sock<br> 
+    DB_SOCKET=/Applications/MAMP/tmp/mysql/mysql.sock<br>
+
+FOR WINDOWS USING XAMMP SERVER<br>    
+
+config .env to  <br>
+
+      DB_CONNECTION=mysql<br>
+      DB_HOST=127.0.0.1<br>
+      DB_PORT=3306<br>
+      DB_DATABASE=hrapp<br>
+      DB_USERNAME=root<br>
+      DB_PASSWORD=root<br>
+      DB_ENGINE=InnoDB<br>
+      DB_SOCKET=C:/xampp/mysql/bin/my.ini<br>
     </p>
