@@ -18,7 +18,7 @@
         <a class="nav-link" href="{{url('/home')}}">
           <i class="material-icons">library_books</i>
 
-          <p>Бүртгэл</p>
+          <p>Хүний нөөц</p>
         </a>
       </li>
 
