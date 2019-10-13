@@ -30,8 +30,9 @@ Route::get('/home', function(){
     return view('admin.dashboard');
   }
   });
-// Route::get('edit', ['as' => 'edit', 'uses' => 'HomeController@test']);
-//       return view('admin.edit');
+// Route::get('edit', ['as' => 'edit', 'uses' => 'profile@edit']);
+  //     return view('admin.profile.edit');
+
 Route::resource('contract', 'contract');
 Route::resource('contractType', 'contractType');
 Route::resource('profile', 'profile');

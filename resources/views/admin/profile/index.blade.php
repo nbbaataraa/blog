@@ -7,16 +7,18 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-1">
-        <button type="submit" class="btn btn-primary btn-round btn-just-icon">
+
+        <a href="{{url('profile/create')}}" class="btn btn-primary btn-round btn-just-icon">
           <i class="material-icons">add_circle</i>
           <div class="ripple-container"></div>
-        </button>
+        </a>
+
       </div>
       <div class="col-md-1">
-        <button type="submit" class="btn btn-danger btn-round btn-just-icon">
+        <a href="{{url('profile/edit')}}" class="btn btn-danger btn-round btn-just-icon">
           <i class="material-icons">edit</i>
           <div class="ripple-container"></div>
-        </button>
+        </a>
       </div>
 
       <div class="col-lg-12 col-md-12">
@@ -309,7 +311,7 @@
                         </button>
                       </td>
                     </tr>
-                    
+
                   </tbody>
                 </table>
               </div>

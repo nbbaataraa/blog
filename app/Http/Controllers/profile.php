@@ -13,7 +13,7 @@ class profile extends Controller
      */
     public function index()
     {
-      
+
         return view('admin.profile.index');
     }
 
@@ -24,8 +24,10 @@ class profile extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.profile.create');
     }
+
+
 
     /**
      * Store a newly created resource in storage.
@@ -57,7 +59,7 @@ class profile extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('admin.profile.edit');
     }
 
     /**
